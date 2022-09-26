@@ -34,4 +34,4 @@ app.use('*', (req, res, ) => {
 })
 
 
-app.listen(PORT, () => console.log(`server runnig http://${localhost}:${PORT}`))
+app.listen(PORT, () => console.log(`server runnig http://localhost:${PORT}`))
