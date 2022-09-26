@@ -5,7 +5,7 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "startMarketClient": "node server.js",
+    "startClient": "node server.js",
     "dev": "nodemon server.js"
   },
   "author": "",
