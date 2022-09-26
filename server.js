@@ -1,10 +1,7 @@
 import express from 'express'
 import path from 'path'
 import ejs from 'ejs'
-import os from 'os'
 
-const network = os.networkInterfaces()
-const host = network.wlp2s0[0].address
 
 const PORT = process.env.PORT || 3000
 const app = express()
@@ -37,4 +34,4 @@ app.use('*', (req, res, ) => {
 })
 
 
-app.listen(PORT, () => console.log(`server runnig http://${host}:${PORT}`))
+app.listen(PORT, () => console.log(`server runnig http://${localhost}:${PORT}`))
