@@ -1,0 +1,40 @@
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(229, 248, 145);
+}
+
+h3 {
+    font-size: 0.7em;
+    letter-spacing: 1.2px;
+    color: color-secondary;
+}
+
+img {
+    max-width: 100%;
+    filter: drop-shadow(1px 1px 3px color-secondary);
+}
+
+/* ----- Product Section ----- */
+.product {
+    margin: 10px;
+    min-width: 200px;
+    background-color: rgb(221, 138, 138);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.page{
+    border: 1px;
+    width: 1000px;
+}
+
+.description {
+    clear: left;
+    margin: 2px;
+}
+
+.buy--btn {
+    border-radius: 7px;
+}
